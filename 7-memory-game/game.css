@@ -15,11 +15,17 @@ body{
     gap: 10px 10px;
 }
 .box{
-    color: #DAFFFB;
-    background: #176B87;
-    border: 3px #DAFFFB solid;
-    border-radius: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #DAFFFB;
+    background: #176B87;
+    border: 3px #DAFFFB solid;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.box:hover{
+    rotate: 360deg;
+    border-radius: 50%;
 }
