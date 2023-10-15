@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{
+    width: 100vw;height: 100vh;
+    background-color: #04364A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    gap: 10px 10px;
+}
+.box{
+    color: #DAFFFB;
+    background: #176B87;
+    border: 3px #DAFFFB solid;
+    border-radius: 2cap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
