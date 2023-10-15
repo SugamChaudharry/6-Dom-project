@@ -24,6 +24,10 @@ body{
     border-radius: 10%;
     transition: 1s;
 }
+.box>p{
+    display: none;
+}
+
 
 .box:hover{
     rotate: 360deg;
