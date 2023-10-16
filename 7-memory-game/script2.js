@@ -9,9 +9,9 @@ for (let i = 0, a = 1, b = ""; i < 6 * 6; i++, a === 18 ? (a = 1) : a++, arr.pus
 }
 
 function toHtml(array) {
-  // arr.sort(function () {
-  //   return 0.5 - Math.random();
-  // });
+  arr.sort(function () {
+    return 0.5 - Math.random();
+  });
   arr.forEach((element) => {
     mainEl.innerHTML += element;
   });
