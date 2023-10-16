@@ -23,8 +23,8 @@ button:hover{
 }
 .main{
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px 80px 80px;
-    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    grid-template-columns:   repeat(5 ,80px)   ;
+    grid-template-rows:   repeat(5 ,80px)   ;
     gap: 10px 10px;
 }
 .box{
@@ -54,4 +54,13 @@ button:hover{
     background: #04364A;
     border-radius: 50%;
     border: none;
+}
+
+@media screen and (width < 550px ) {
+    .main{
+    display: grid;
+    grid-template-columns:   repeat(5 ,50px)   ;
+    grid-template-rows:   repeat(5 ,50px)   ;
+    gap: 3px 3px;
+}
 }
