@@ -59,8 +59,8 @@ button:hover{
 @media screen and (width < 550px ) {
     .main{
     display: grid;
-    grid-template-columns:   repeat(5 ,50px)   ;
-    grid-template-rows:   repeat(5 ,50px)   ;
-    gap: 3px 3px;
+    grid-template-columns:   repeat(5 ,60px)   ;
+    grid-template-rows:   repeat(5 ,60px)   ;
+    gap: 5px 5px;
 }
 }
