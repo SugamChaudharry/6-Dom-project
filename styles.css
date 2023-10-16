@@ -46,8 +46,9 @@ h1 {
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  /* grid-template-columns: auto auto ; */
+
 }
 
 .project-link {
