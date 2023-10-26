@@ -5,7 +5,7 @@
     
     --fw-normal: 400;
     --fw-bold: 700;
-    --img-bg: url("../images/bg-desktop-dark.jpg");
+    --img-bg: url("./images/bg-desktop-dark.jpg");
     
     --mobile-width : 375px;
     --desktop-width : 1440px;
